@@ -1,0 +1,15 @@
+.dateRange {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  z-index: 2;
+  &__container {
+    position: absolute;
+    top: 50px;
+    left: -100%;
+    border-radius: 5px;
+    border: 1px solid #f07809;
+    padding: 5px;
+  }
+}

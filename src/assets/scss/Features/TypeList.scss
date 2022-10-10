@@ -1,0 +1,29 @@
+.typeList {
+  margin-bottom: 30px;
+  &__title {
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: #f07809;
+    font-size: 20px;
+  }
+
+  &__item {
+  }
+  &__img {
+    height: 180px;
+    width: 100%;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  }
+  &__name {
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 10px;
+  }
+  &__count {
+    font-size: 16px;
+    color: #333;
+  }
+}

@@ -1,0 +1,11 @@
+.header__container {
+  position: relative;
+  height: 400px;
+  background-image: url(../../../images/header-01.jpg-1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 50px;
+  &.search {
+    height: 200px;
+  }
+}

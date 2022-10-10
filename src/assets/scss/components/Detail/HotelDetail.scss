@@ -1,0 +1,90 @@
+.detail {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 16px;
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__item {
+  }
+
+  &__title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+
+  &__address {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+
+  &__distance {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #2479e7;
+  }
+
+  &__price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #0f810b;
+  }
+
+  &__btn {
+    background-color: #2479e7;
+    border: none;
+    padding: 10px 15px;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 5px;
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+
+  &__image {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  &__imageWrap {
+    width: 33%;
+  }
+  &__pic {
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 5px;
+  }
+  &__description {
+    display: flex;
+    gap: 30px;
+    margin: 30px 0;
+  }
+  &__wrapper {
+    flex: 3;
+  }
+
+  &__booking {
+    flex: 1;
+    background-color: #e7e3e3;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  &__subTitle {
+    color: #636161;
+    font-size: 22px;
+    font-weight: bold;
+  }
+
+  &__price9 {
+    font-size: 22px;
+  }
+}

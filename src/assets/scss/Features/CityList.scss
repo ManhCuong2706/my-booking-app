@@ -1,0 +1,21 @@
+.cityList {
+  &__container {
+    margin-bottom: 30px;
+  }
+  &__item {
+    position: relative;
+    color: #fff;
+    text-shadow: 0 1px 0 #000;
+  }
+  &__img {
+    border-radius: 10px;
+    width: 100%;
+    object-fit: cover;
+    height: 280px;
+  }
+  &__title {
+    position: absolute;
+    bottom: 10px;
+    left: 30px;
+  }
+}

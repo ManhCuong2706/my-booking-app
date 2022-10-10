@@ -1,0 +1,80 @@
+.header__wrapper {
+  position: relative;
+  height: 220px;
+}
+
+.header {
+  &__title {
+    color: #fff;
+  }
+  &__text {
+    color: #f3e73e;
+    font-size: 16px;
+    font-weight: 700;
+  }
+  &__btn {
+    padding: 8px;
+    color: #fff;
+    background-color: #f07809;
+    border: 2px solid #f07809;
+    border-radius: 50px;
+
+    &:hover {
+      color: #f07809;
+      background-color: #fff;
+    }
+  }
+}
+
+.headerSearch {
+  display: flex;
+  height: 54px;
+  background-color: #fff;
+  border: 3px solid #febb02;
+
+  align-items: center;
+  position: absolute;
+  justify-content: space-between;
+
+  width: 100%;
+  padding: 8px;
+  border-radius: 6px;
+  bottom: -27px;
+  left: 0;
+
+  &__item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  &__icon {
+    color: lightgray;
+  }
+
+  &__input {
+    border: none;
+    outline: none;
+  }
+
+  &__btn {
+    padding: 6px;
+    color: #fff;
+    background-color: #f07809;
+    border: none;
+    border-radius: 5px;
+
+    &:hover {
+      opacity: 0.8;
+      cursor: pointer;
+    }
+  }
+
+  &__text {
+    color: #ccc;
+  }
+
+  &__option {
+    position: absolute;
+  }
+}
